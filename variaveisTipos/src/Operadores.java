@@ -22,6 +22,11 @@ public class Operadores {
         // operador ternario
 
         String resultado = numero%2 == 0 ?"Par" : "Impar";
+        System.out.println(resultado);
+
+        //  ----------------  operadores lógicos - "E" &&, "OU" || . -------------
+
+        // Testando se os numeros são par ou impar usando o operador lógico && "E"
 
         if(numero%2 ==0 && segundoNumero%2 ==0){
             System.out.println("Ambos os numeros são par");
@@ -29,8 +34,11 @@ public class Operadores {
             System.out.println("Pelo menos um dos numeros é impar");
         }
 
-        System.out.println(resultado);
+        // Testando se um dos numeros é par utilizando o operador logigo || "OU"
 
+        if(numero%2==0 || segundoNumero%2==0){
+            System.out.println("Sim um dos numeros é par");
+        }      
 
     }
 
